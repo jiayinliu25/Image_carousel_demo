@@ -1,0 +1,13 @@
+{
+  "name": "wms-tiled",
+  "dependencies": {
+    "owl.carousel": "2.3.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  }
+}

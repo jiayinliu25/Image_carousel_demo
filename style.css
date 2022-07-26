@@ -1,0 +1,31 @@
+#slider {
+  margin-top: 10%;
+}
+.content-area {
+  position: relative;
+}
+.custom-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  transition: all 400ms east-in-out;
+  height: 100%;
+}
+.custom-overlay:hover {
+  opacity: 1;
+}
+.custom-overlay h2 {
+  font-size: 30px;
+  font-family: Poppins;
+  color: #000;
+}
+.content-text {
+  font-size: 20px;
+  font-family: Poppins;
+  color: #000;
+}
